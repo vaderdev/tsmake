@@ -1,0 +1,22 @@
+{
+  "name": "tsmake",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "chandu lanka",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
