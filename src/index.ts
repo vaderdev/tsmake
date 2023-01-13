@@ -5,4 +5,16 @@ import chalkAnimation from "chalk-animation";
 import figlet from "figlet";
 import { createSpinner } from "nanospinner";
 
-console.log(chalk.bgGreen("hello mother."));
+const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
+
+async function title() {
+  const rainbowTitle = chalkAnimation.rainbow("TSMake");
+
+  await sleep();
+  rainbowTitle.stop();
+  console.log(`
+        Fast Typescript Project Generator.
+    `);
+}
+
+await title();
