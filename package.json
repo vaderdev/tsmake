@@ -4,10 +4,16 @@
   "main": "index.js",
   "author": "chandu lanka",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "start": "tsc && node dist/index.js"
   },
   "dependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/figlet": "^1.5.5",
+    "@types/gradient-string": "^1.1.2",
+    "@types/inquirer": "^9.0.3",
     "chalk": "^5.2.0",
     "chalk-animation": "^2.0.3",
     "figlet": "^1.5.2",
