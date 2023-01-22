@@ -1,0 +1,1 @@
+export declare const code_cli = "import inquirer from \"inquirer\";\n\ninquirer\n    .prompt([{ type: 'input', name: 'name', message: 'What is your name?' }])\n    .then((answers) => {\n        console.log(answers.name)\n    })";

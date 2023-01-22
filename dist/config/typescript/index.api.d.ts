@@ -1,0 +1,1 @@
+export declare const code_api = "import express from \"express\";\n\napp = express();\n\napp.get(\"/\", (req, res) => {\n    res.json(\"hello\")\n})\n\napp.listen(8000, () => console.log(\"running on http://localhost:8000/\"))";
