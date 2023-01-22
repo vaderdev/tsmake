@@ -41,11 +41,7 @@ export function project_type() {
       fs.writeFileSync(project_dir + "/src/index.ts", typescript_code);
       console.log("Project Created Successfully ;)");
       console.log("run: ");
-      const npm_install = chalkAnimation.neon("npm install");
-
-      setTimeout(() => {
-        npm_install.stop();
-      }, 2000);
+      console.log("npm install")
     });
 }
 

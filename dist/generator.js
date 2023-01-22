@@ -1,5 +1,4 @@
 import inquirer from "inquirer";
-import chalkAnimation from "chalk-animation";
 import * as fs from "fs";
 import * as package_json_cli from "./config/package_json/package.cli.json" assert { type: "json" };
 import * as package_json_api from "./config/package_json/package.api.json" assert { type: "json" };
@@ -40,10 +39,7 @@ export function project_type() {
         fs.writeFileSync(project_dir + "/src/index.ts", typescript_code);
         console.log("Project Created Successfully ;)");
         console.log("run: ");
-        const npm_install = chalkAnimation.neon("npm install");
-        setTimeout(() => {
-            npm_install.stop();
-        }, 2000);
+        console.log("npm install");
     });
 }
 function create_src_folder() {
