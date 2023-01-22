@@ -1,7 +1,7 @@
 import inquirer from "inquirer";
 import * as fs from "fs";
 import * as ts_config_json from "./config/tsconfig.template.json" assert { type: "json" };
-import { project_type } from './prompts/project_type.js'
+import { project_type } from './generator.js'
 
 export let project_dir = "";
 
@@ -31,4 +31,3 @@ export function create_project() {
       }
     });
 }
-
