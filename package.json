@@ -1,6 +1,6 @@
 {
   "name": "ts-make-gen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightning Fast Typescript Project Generator",
   "main": "dist/index.js",
   "bin": "dist/index.js",
