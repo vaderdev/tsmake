@@ -1,6 +1,6 @@
 {
   "name": "ts-make-gen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lightning Fast Typescript Project Generator",
   "main": "dist/index.js",
   "bin": "dist/index.js",
@@ -18,13 +18,7 @@
     "start": "tsc && node dist/index.js"
   },
   "dependencies": {
-    "@types/chalk-animation": "^1.6.1",
-    "@types/figlet": "^1.5.5",
-    "@types/gradient-string": "^1.1.2",
     "@types/inquirer": "^9.0.3",
-    "chalk-animation": "^2.0.3",
-    "figlet": "^1.5.2",
-    "gradient-string": "^2.0.2",
     "inquirer": "^9.1.4"
   },
   "devDependencies": {
