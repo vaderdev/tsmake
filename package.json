@@ -1,8 +1,16 @@
 {
-  "name": "tsmake",
+  "name": "ts-make-gen",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "chandu lanka",
+  "description": "Lightning Fast Typescript Project Generator",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "author": "Chandu Lanka",
+  "keywords": [
+    "typescript",
+    "tsconfig.json",
+    "ts",
+    "tsmake"
+  ],
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -18,5 +26,13 @@
   "devDependencies": {
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaderdev/tsmake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vaderdev/tsmake/issues"
+  },
+  "homepage": "https://github.com/vaderdev/tsmake"
 }
