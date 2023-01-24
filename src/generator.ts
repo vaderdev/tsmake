@@ -1,5 +1,4 @@
 import inquirer from "inquirer";
-import chalkAnimation from "chalk-animation";
 import * as fs from "fs";
 import * as package_json_cli from "./config/package_json/package.cli.json" assert { type: "json" };
 import * as package_json_api from "./config/package_json/package.api.json" assert { type: "json" };
